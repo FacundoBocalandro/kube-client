@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kube-client-config
+  namespace: default
+data:
+  auth_port: "50000"
+  auth_host: "auth"
+  catalogue_port: "50001"
+  catalogue_host: "catalogue"
+  geo_port: "50002"
+  geo_host: "geo"
